@@ -1,0 +1,56 @@
+{
+  "name": "micro-svg",
+  "version": "1.0.0",
+  "author": {
+    "name": "Victor Nystad",
+    "email": "victor@nystad.net"
+  },
+  "description": "Micro server svg",
+  "main": "./lib/main.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:trygve-lie/lego.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "scripts": {
+    "start": "node ./bin/server.js | bistre"
+  },
+  "contributors": [
+    {
+      "name": "Trygve Lie",
+      "email": "post@trygve-lie.com"
+    }
+  ],
+  "engines": {
+    "node": "5.x"
+  },
+  "bugs": {
+    "url": "https://github.com/trygve-lie/lego/issues"
+  },
+  "licenses": [
+    "MIT"
+  ],
+  "dependencies": {
+    "bole": "2.x",
+    "bistre": "1.x",
+    "express-error-responses": "0.2.x",
+    "numbat-emitter": "2.x",
+    "convict": "1.x",
+    "express": "4.x",
+    "serve-static": "1.x",
+    "compression": "1.x",
+    "hbs": "4.x",
+    "joi": "7.x",
+    "through2": "2.0.0",
+    "shasum": "1.0.2",
+    "module-deps": "4.0.2",
+    "JSONStream": "1.0.7",
+    "browser-pack": "6.0.1",
+    "eventemitter3": "1.1.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.10.0"
+  }
+}
